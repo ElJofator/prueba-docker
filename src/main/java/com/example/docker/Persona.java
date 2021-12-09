@@ -44,4 +44,9 @@ public class Persona {
     public void setEdad(int edad) {
         this.edad = edad;
     }
+
+    @Override
+    public String toString() {
+        return "id: " + id + "\nnombre: " + nombre + "\napellidos: " + apellidos + "\nedad: " + edad;
+    }
 }
